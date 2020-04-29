@@ -33,8 +33,11 @@ function concatName(firstName, lastName) {
 }
 concatName('jashim', 'uddin');
 console.log(concatName);
+
 function concatName(firstName, lastName) {
 	console.log(lastName + ", " + firstName);
 }
-concatName('jashim', 'uddin');
-console.log(concatName);
+
+
+var days = ['sun', 'mon','tue','wed', 'thus', 'fri']
+console.log(days.sort());

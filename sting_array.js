@@ -19,4 +19,4 @@ console.log('Number of words: ' + a.length);
 
 console.log(a);
 
-console.log(a.splice(0, 3));
+console.log(a.splice(3, 6));
