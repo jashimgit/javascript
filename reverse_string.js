@@ -3,9 +3,7 @@ function reverse(str) {
 
     // push letter into stack
     for (let i = 0; i < str.length; i++) {
-        stack.push(str[i]);
-       
-        
+        stack.push(str[i]);  
     }
 
     // pop letter from the stack
