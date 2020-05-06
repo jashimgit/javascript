@@ -36,3 +36,12 @@ console.log(arr2);
 let arr3 = ['I', 'study', 'javascript'];
 arr3.splice(2, 0, 'complex', 'language');
 console.log(arr3);
+
+/**
+ *  Negative indexes allowed
+ *  negative indexes will be count from the end of the array
+ */
+
+let arr4 = [1,2,3,5];
+arr4.splice(-1, 0, 4);
+console.log(arr4);
